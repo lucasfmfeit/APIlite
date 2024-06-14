@@ -25,3 +25,4 @@ usuario.sync({force:false}).then(()=>{
     console.log("Modelo Sincronizado")
 })
 module.exports = usuario
+
