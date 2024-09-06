@@ -27,6 +27,7 @@ usuariosRouter.get("/usuarios", async(request, response)=>{
 })
 
 usuariosRouter.post("/usuarios", async(request, response)=>{
+    console.log(request.body)
     const resultado = await Usuario.create(request.body)
     return response.json(resultado) 
 })
